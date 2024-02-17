@@ -6,6 +6,7 @@ int main() {
     int OLD[5];
     int NEW[5];
 
+    std::cout << "Enter 5 elements for the array: " << std::endl;
     for (int i = 0; i < 5; i++){
         std::cin >> OLD[i];
     }
